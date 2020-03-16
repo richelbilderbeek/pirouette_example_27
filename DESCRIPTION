@@ -7,10 +7,8 @@ Authors@R: c(
 Author: Richel J.C. Bilderbeek <richel@richelbilderbeek.nl>
 Maintainer: Richel J.C. Bilderbeek <richel@richelbilderbeek.nl>
 Description: A 'pirouette' example.
-  The main repository for the example is 'pirouette',
-  at <https://github.com/richelbilderbeek/pirouette>.
-  All 'pirouette' examples can be found
-  at <https://github.com/richelbilderbeek/pirouette_examples>.
+  The main repo for the code is 'pirouette'.
+  The main repo for the scripts is this repo.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -20,5 +18,4 @@ Imports:
     ggplot2,
     pirouette (>= 1.6),
     nLTT (>= 1.4.2)
-Suggests: 
-    tidyr
+Suggests: tidyr
