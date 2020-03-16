@@ -7,8 +7,13 @@ Branch   |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)         
 
 A [pirouette example](https://github.com/richelbilderbeek/pirouette_examples)
 that uses an unlinked [nodeSub](https://github.com/thijsjanzen/nodeSub) model
-nuclotide substitution model.
+nuclotide substitution model for multiple replicates.
+
+Related examples:
+
+ * [pirouette example 17](https://github.com/richelbilderbeek/pirouette_example_17):
+   one tree, instead of multiple replicates
 
 ## Results
 
-![](example_27_314/errors.png)
+![](example_27_314/errors_all.png)
