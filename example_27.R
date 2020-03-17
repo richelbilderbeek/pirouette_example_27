@@ -12,7 +12,7 @@ library(ggplot2)
 is_testing <- is_on_ci()
 example_no <- 27
 rng_seed <- 314
-folder_name <- paste0("example_", example_no, "_", rng_seed)
+folder_name <- paste0("example_", example_no)
 crown_age <- 10
 n_phylogenies <- 5
 if (is_testing) {
@@ -47,7 +47,10 @@ for (i in seq_len(n_phylogenies)) {
 expect_equal(length(phylogenies), n_phylogenies)
 
 # Create pirouette parameter sets
-pir_paramses <- create_std_pir_paramses(n = length(phylogenies))
+pir_paramses <- create_std_pir_paramses(
+  n = length(phylogenies),
+  folder_name = folder_name
+)
 for (i in seq_along(pir_paramses)) {
   pir_params[[i]]$alignment_params$sim_tral_fun <-
     get_sim_tral_with_uns_nsm_fun(
@@ -71,7 +74,7 @@ pir_outs <- pir_runs(
 # Plot total runs
 pir_plots(
   pir_outs = pir_outs
-) + ggsave(filename = paste0("errors_all.png"), width = 7, height = 7)
+) + ggsave(filename = file.path(folder_name, "errors.png"), width = 7, height = 7)
 
 # Save indiidual runs
 expect_equal(length(pir_paramses), length(pir_outs))
