@@ -6,6 +6,7 @@
 ^scripts$
 ^\.travis\.yml$
 ^appveyor\.yml$
-^example_.*\.R$
-^example_*$
+^example_27.*\.R$
+^example_27.*\.log$
+^example_27*$
 
