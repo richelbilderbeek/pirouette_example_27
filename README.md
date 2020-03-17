@@ -16,4 +16,13 @@ Related examples:
 
 ## Results
 
-![](example_27_314/errors_all.png)
+![](example_27/errors.png)
+
+### Individual results
+
+![](example_27/314/errors.png)
+![](example_27/315/errors.png)
+![](example_27/316/errors.png)
+![](example_27/317/errors.png)
+![](example_27/318/errors.png)
+
