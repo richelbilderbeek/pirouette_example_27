@@ -52,12 +52,12 @@ pir_paramses <- create_std_pir_paramses(
   folder_name = folder_name
 )
 for (i in seq_along(pir_paramses)) {
-  pir_params[[i]]$alignment_params$sim_tral_fun <-
+  pir_paramses[[i]]$alignment_params$sim_tral_fun <-
     get_sim_tral_with_uns_nsm_fun(
       branch_mutation_rate = 0.1,
       node_mutation_rate = 0.1
     )
-  pir_params[[i]]$twinning_params$sim_twin_tree_fun <-
+  pir_paramses[[i]]$twinning_params$sim_twin_tree_fun <-
     create_copy_twtr_from_true_fun()
 }
 expect_equal(length(pir_paramses), n_phylogenies)
