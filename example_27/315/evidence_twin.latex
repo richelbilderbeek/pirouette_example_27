@@ -1,0 +1,27 @@
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Tue Mar 17 14:41:31 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{lllrrrr}
+  \hline
+Site model & Clock model & Tree prior & log(evidence) & log(evidence error) & Weight & ESS \\ 
+  \hline
+GTR & RLN & BD & -6373.781 & 5.245 & 0.000 & 10.720 \\ 
+  GTR & RLN & Yule & -6358.449 & 5.201 & 0.000 & 7.170 \\ 
+  GTR & Strict & BD & -6388.468 & 7.973 & 0.000 & 5.466 \\ 
+  GTR & Strict & Yule & -6370.964 & 6.100 & 0.000 & 13.101 \\ 
+  HKY & RLN & BD & -6367.352 & 6.302 & 0.000 & 11.405 \\ 
+  HKY & RLN & Yule & -6370.924 & 6.479 & 0.000 & 11.797 \\ 
+  HKY & Strict & BD & -6361.821 & 5.467 & 0.000 & 7.414 \\ 
+  HKY & Strict & Yule & -6354.082 & 5.478 & 0.000 & 8.113 \\ 
+  JC & RLN & BD & -6348.932 & 4.176 & 0.000 & 11.777 \\ 
+  JC & RLN & Yule & -6339.463 & 3.553 & 0.206 & 6.398 \\ 
+  JC & Strict & BD & -6338.117 & 3.469 & 0.793 & 4.032 \\ 
+  TN & RLN & BD & -6353.933 & 4.630 & 0.000 & 6.809 \\ 
+  TN & RLN & Yule & -6351.625 & 5.056 & 0.000 & 3.493 \\ 
+  TN & Strict & BD & -6370.957 & 7.326 & 0.000 & 4.019 \\ 
+  TN & Strict & Yule & -6355.582 & 5.484 & 0.000 & 7.229 \\ 
+   \hline
+\end{tabular}
+\caption{Evidences for twin phylogeny} 
+\end{table}

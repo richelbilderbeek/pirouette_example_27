@@ -1,0 +1,18 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:alignment'>(((0:0.11838052843009483,((1:0.06912235652144144,3:0.06912235652144144)7:0.013284060505816667,2:0.08240641702725811)9:0.035974111402836725)6:0.010239599870038946,4:0.12862012830013378)8:0.9042583540847049,5:1.0328784823848387)10:0.0</statenode>
+<statenode id='BDBirthRate.t:alignment'>BDBirthRate.t:alignment[1 1] (0.0,10000.0): 0.7102832067259941 </statenode>
+<statenode id='BDDeathRate.t:alignment'>BDDeathRate.t:alignment[1 1] (0.0,1.0): 0.6515870691416421 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"BirthRateScaler.t:alignment","p":0.1810445682104826,"accept":102202,"reject":282759,"acceptFC":101217,"rejectFC":282591,"rejectIv":0,"rejectOp":0},
+{"id":"DeathRateScaler.t:alignment","p":0.1217617322458992,"accept":82055,"reject":302140,"acceptFC":81116,"rejectFC":301982,"rejectIv":237827,"rejectOp":237827},
+{"id":"BirthDeathTreeScaler.t:alignment","p":0.7287780523814962,"accept":78980,"reject":305018,"acceptFC":78888,"rejectFC":304004,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeRootScaler.t:alignment","p":0.5312805829639706,"accept":82318,"reject":301912,"acceptFC":82104,"rejectFC":301026,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathUniformOperator.t:alignment","p":"NaN","accept":738764,"reject":3107713,"acceptFC":736659,"rejectFC":3098804,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathSubtreeSlide.t:alignment","p":0.21553061256044515,"accept":208554,"reject":1714137,"acceptFC":208388,"rejectFC":1708756,"rejectIv":607121,"rejectOp":607121},
+{"id":"BirthDeathNarrow.t:alignment","p":"NaN","accept":165472,"reject":1757871,"acceptFC":164963,"rejectFC":1752791,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathWide.t:alignment","p":"NaN","accept":5235,"reject":379692,"acceptFC":5215,"rejectFC":378591,"rejectIv":213663,"rejectOp":213663},
+{"id":"BirthDeathWilsonBalding.t:alignment","p":"NaN","accept":1505,"reject":383674,"acceptFC":1501,"rejectFC":382573,"rejectIv":197387,"rejectOp":197387}
+]}
+-->
