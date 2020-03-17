@@ -1,0 +1,52 @@
+Loading required package: beautier
+Loading required package: babette
+Loading required package: beastier
+Loading required package: mauricer
+Loading required package: tracerer
+Registered S3 method overwritten by 'pryr':
+  method      from
+  print.bytes Rcpp
+Error: object 'pir_params' not found
+Execution halted
+
+real	1m13.583s
+user	1m9.653s
+sys	0m0.592s
+
+
+###############################################################################
+Peregrine Cluster
+Job 10155250 for user 'p230198'
+Finished at: Tue Mar 17 10:56:09 CET 2020
+
+Job details:
+============
+
+Name                : pirex27
+User                : p230198
+Partition           : regular
+Nodes               : pg-node009
+Cores               : 1
+State               : FAILED
+Submit              : 2020-03-17T10:54:51
+Start               : 2020-03-17T10:54:54
+End                 : 2020-03-17T10:56:08
+Reserved walltime   : 1-00:00:00
+Used walltime       :   00:01:14
+Used CPU time       :   00:01:10 (efficiency: 95.70%)
+% User (Computation): 98.93%
+% System (I/O)      :  1.07%
+Mem reserved        : 10G/node
+Max Mem used        : 224.71M (pg-node009)
+Max Disk Write      : 71.68K (pg-node009)
+Max Disk Read       : 1.35M (pg-node009)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/additional_information/scientific_output
+
+################################################################################
