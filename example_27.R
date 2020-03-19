@@ -74,9 +74,9 @@ pir_outs <- pir_runs(
 # Plot total runs
 pir_plots(
   pir_outs = pir_outs
-) + ggsave(filename = file.path(folder_name, "errors.png"), width = 7, height = 7)
+) + ggsave("errors.png", width = 7, height = 7)
 
-# Save indiidual runs
+# Save individual runs
 expect_equal(length(pir_paramses), length(pir_outs))
 expect_equal(length(pir_paramses), length(phylogenies))
 for (i in seq_along(pir_outs)) {
