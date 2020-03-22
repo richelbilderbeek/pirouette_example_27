@@ -34,7 +34,7 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
-*.zip
+
+Rplots.pdf
 example_27/
-Rplots.pdf
-Rplots.pdf
+*.zip
