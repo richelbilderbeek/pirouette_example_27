@@ -14,7 +14,7 @@ example_no <- 27
 rng_seed <- 314
 folder_name <- paste0("example_", example_no)
 crown_age <- 10
-n_phylogenies <- 10
+n_phylogenies <- 20
 if (is_testing) {
   n_phylogenies <- 2
 }
